@@ -5,8 +5,10 @@
 
 /* Remove margins and padding from the list */
 ul {
-  margin: 0;
-  padding: 0;
+  ul {
+    width: 70%;
+    margin: auto;
+  }
 }
 
 /* Style the list items */
@@ -19,6 +21,9 @@ ul li {
   font-size: 18px;
   transition: 0.2s;
   border-radius: 10px;
+
+  width: 70%;
+  margin: auto;
 }
 
 /* Set all odd list items to a different color (zebra-stripes) */
@@ -76,6 +81,8 @@ ul li.checked::before {
   color: black;
   text-align: left;
   max-width: 400px;
+  margin: auto;
+  width: 70%;
 }
 
 /* Clear floats after the header */
@@ -88,7 +95,7 @@ ul li.checked::before {
 /* Style the input */
 input {
   margin-right: 10px;
-  border: solid 2px black ;
+  border: solid 2px black;
   border-radius: 10%;
   width: 200px;
   padding: 10px;
